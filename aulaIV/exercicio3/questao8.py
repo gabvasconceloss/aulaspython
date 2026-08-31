@@ -1,0 +1,16 @@
+"""Questão 08 – Classificação da Temperatura
+8. Faça um programa que leia uma temperatura em graus Celsius e apresente:
+• Temperatura abaixo de 15 °C → "Frio"
+• Temperatura entre 15 °C e 30 °C → "Temperatura agradável"
+• Temperatura acima de 30 °C → "Calor"
+Estrutura obrigatória: if / elif / else."""
+
+temperatura = float(input("Digite a temperatura em graus Celsius: "))
+
+if temperatura < 15:
+    print("Frio")
+elif 15 <= temperatura <= 30:
+    print("Temperatura agradável")
+else:
+    print("Calor")
+
